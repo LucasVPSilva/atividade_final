@@ -6,11 +6,26 @@
   box-sizing: border-box;
 }
 
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
 body {
+  width: 100vw;
   background-color: #f0f0f0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* background-image: url(../imgs/fundo2.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat; */
 }
 
 body,
@@ -62,7 +77,7 @@ header {
   padding: 10px 20px;
 }
 
-button {
+/* button {
   background-color: #007bff;
   color: #fff;
   border: 0;
@@ -74,6 +89,39 @@ button {
 button:disabled {
   background-color: #ccc;
   cursor: not-allowed;
+} */
+
+#pagination {
+  margin-bottom: 20px;
 }
 
-/* parei com 35min */
+.info-page {
+  margin-bottom: 20px;
+}
+
+.cardStatus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-top: 05px;
+  margin-bottom: 20px;
+}
+
+.dead {
+  background-color: red;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border: none;
+  margin-right: 10px;
+}
+
+.alive {
+  background-color: lightgreen;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border: none;
+  margin-right: 10px;
+}
