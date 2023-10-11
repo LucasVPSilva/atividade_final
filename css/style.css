@@ -28,3 +28,16 @@
   display: flex;
   align-items: center;
 }
+
+.animated-image {
+  animation: pulse 2s infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
