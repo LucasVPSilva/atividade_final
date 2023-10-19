@@ -84,13 +84,7 @@ async function loadCharacters(name = '', page) {
                     <small class="text-white-50 font-weight-bold"
                           >Última localização conhecida</small>
                     <p class="mb-0 pb-0 text-light mb-2">${character.location.name}</p>
-                            <small class="text-white-50 font-weight-bold"
-                            >Visto a última vez em:</small
-                         >
-                         <p class="card-text text-light font-weight-bold">
-                             Nome do capítulo
-                         </p>
-
+ 
 
 
                          
@@ -121,9 +115,6 @@ async function loadCharacters(name = '', page) {
                                     >Raça</small>
                                 <p class="mb-0 pb-0 text-light mb-1">${character.species == "Human" ? "Humano" : character.species}</p>
                                 </p>
-                                <small class="text-white-50 font-weight-bold"
-                                    >Última localização conhecida</small>
-                                <p class="mb-0 pb-0 text-light mb-2">${character.location.name}</p>    
 
                             </div>
                             </div>

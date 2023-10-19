@@ -41,3 +41,12 @@
     transform: scale(1);
   }
 }
+
+.img-back {
+  /* Estilo para o rodapé */
+  background-image: url("../imgs/fundo2.jpg"); /* Caminho para o seu papel de parede */
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+  height: 400px;
+}
